@@ -48,6 +48,15 @@ namespace CSBasic
                 Console.Write((char)i);
             }
 
+            //var는 컴파일 할 때 int로 됨. 맨처음에 지정한 데이터 타입으로 쭉 감.
+            var number = 100;
+            var myName = "김수현이쥐..내이름";
+            Console.WriteLine(number);
+            Console.WriteLine(myName);
+
+            string input = Console.ReadLine();
+            Console.WriteLine("입력 : " + input);
+
         }
     }
 }
