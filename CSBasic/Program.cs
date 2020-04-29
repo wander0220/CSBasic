@@ -30,6 +30,24 @@ namespace CSBasic
             Console.WriteLine(true);
             Console.WriteLine(false);
 
+            int a = 2000000000;
+            int b = 1000000000;
+
+            Console.WriteLine((long)a + b);
+            Console.WriteLine((long)a + (long)b);
+            Console.WriteLine(a + (long)b);
+            Console.WriteLine(a + b);
+
+            Console.WriteLine(long.MaxValue);
+            Console.WriteLine(long.MinValue);
+
+            Console.WriteLine(sizeof(char));
+
+            for(int i= '가'; i < '갹'; i++)
+            {
+                Console.Write((char)i);
+            }
+
         }
     }
 }
